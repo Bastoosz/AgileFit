@@ -1,0 +1,255 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+    url('https://png.pngtree.com/thumb_back/fh260/background/20240329/pngtree-rows-of-dumbbells-in-the-gym-image_15662386.jpg') 
+    no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+.container {
+  max-width: 480px;
+  margin: 48px auto;
+  background: rgba(24, 18, 29, 0.90);
+  padding: 44px 28px 48px 28px;
+  border-radius: 32px;
+  box-shadow: 0 0 36px 3px #fd434370, 0 0 0 7px #ffea0060;
+}
+
+.offer-area {
+  text-align: center;
+  border-bottom: 2px solid #222;
+  padding-bottom: 36px;
+  margin-bottom: 46px;
+}
+
+.offer-label {
+  color: #fff;
+  background: #ff3533;
+  display: inline-block;
+  padding: 5px 18px 5px 18px;
+  border-radius: 24px;
+  margin-bottom: 16px;
+  font-size: 17px;
+  font-family: 'Poppins', Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-shadow: 1px 2px 3px #b72121;
+}
+
+h1 {
+  font-family: 'Montserrat', 'Poppins', Arial, sans-serif;
+  font-weight: 900;
+  font-size: 2.1rem;
+  margin: 12px 0 22px 0;
+  line-height: 1.17;
+}
+
+.highlight {
+  background: linear-gradient(90deg, #FFD600 10%, #12FF6B 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-family: 'Montserrat', 'Poppins', Arial, sans-serif;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.price {
+  font-size: 1.3rem;
+  margin: 10px 0 14px 0;
+  font-weight: 700;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+.old-price {
+  text-decoration: line-through;
+  color: #bbb;
+  font-size: 1.1rem;
+}
+.current-price {
+  color: #fff;
+  background: linear-gradient(90deg, #ff3533 60%, #ffc41c 100%);
+  box-shadow: 0 2px 10px #e23423c0;
+  border-radius: 7px;
+  padding: 3px 12px;
+  margin-left: 2px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.timer {
+  font-size: 1.3rem;
+  font-weight: 900;
+  margin-bottom: 24px;
+  padding: 8px 22px;
+  border-radius: 13px;
+  border: 2px solid #ff3533;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 4px;
+  background: rgba(0,0,0,0.52);
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+}
+
+
+.offer-benefits {
+  text-align: left;
+  margin: 22px 0;
+  padding-left: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: 'Inter', Arial, sans-serif;
+}
+.offer-benefits li {
+  list-style: none;
+  padding-left: 22px;
+  margin-bottom: 8px;
+  position: relative;
+}
+.offer-benefits li:before {
+  content: '🔥';
+  position: absolute;
+  left: 0;
+  font-size: 17px;
+}
+
+.lead-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 18px;
+}
+.lead-form input,
+.lead-form button {
+  font-size: 17px;
+  padding: 13px 12px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-family: 'Inter', Arial, sans-serif;
+}
+.lead-form input {
+  background: #23263b;
+  color: #f7f7f7;
+  border: 1.5px solid #ffec0040;
+  margin-bottom: 2px;
+  transition: border 0.2s;
+}
+.lead-form input:focus {
+  border: 1.5px solid #ffec00;
+  background: #232e46;
+}
+.lead-form button {
+  background: linear-gradient(90deg, #ff3533, #ffec00 90%);
+  color: #232323;
+  font-weight: bold;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 16px #ffec00a0, 0 8px 12px #ff2323a0;
+  cursor: pointer;
+  transition: box-shadow 0.18s, filter 0.2s;
+}
+.lead-form button:hover {
+  filter: brightness(1.10);
+  box-shadow: 0 9px 20px #fc0 60%, 0 16px 32px #ff353350;
+}
+
+.guarantee {
+  margin-top: 42px;
+  font-size: 16px;
+  color: #fff;
+  background: #332d1b55;
+  border-radius: 10px;
+  padding: 14px 18px 12px 18px;
+  text-shadow: 1px 2px 9px #1c250b80;
+  margin-bottom: 12px;
+  font-family: 'Poppins', Arial, sans-serif;
+  text-align: center;
+  border: 1.5px dashed #ffd600;
+  box-shadow: 0 1px 7px #ffd60033;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+  display: auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.guarantee-title {
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: #FFD600;
+  font-size: 18px;
+  margin-bottom: 4px;
+  font-family: 'Montserrat', 'Poppins', Arial, sans-serif;
+  text-shadow: 0 2px 8px #0008;
+  display: block;
+}
+
+.testimonials {
+  margin-top: 44px;
+  text-align: center;
+}
+.testimonials h2 {
+  color: #fff;
+  font-size: 1.3rem;
+  margin-bottom: 22px;
+  font-weight: 700;
+  font-family: 'Montserrat', Arial, sans-serif;
+  letter-spacing: 1px;
+}
+.count { color: #33ff2f; }
+
+.testimonial-list {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+.testimonial {
+  background: #181922ee;
+  border: 2px solid #ffec0040;
+  border-radius: 10px;
+  padding: 15px 13px;
+  color: #fff;
+  font-size: 15px;
+  box-shadow: 0 2px 7px 0 #ffd6001a;
+  text-align: left;
+  transition: border-color 0.14s;
+  font-family: 'Inter', Arial, sans-serif;
+}
+.testimonial:hover {
+  border-color: #33ff2f80;
+}
+.testimonial-name {
+  color: #ffc41c;
+  font-weight: 800;
+  margin-bottom: 4px;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+.testimonial-stars {
+  color: #FFD600;
+  font-size: 1.22em;
+  margin-bottom: 2px;
+  letter-spacing: 2px;
+  font-family: 'Poppins', 'Arial', sans-serif;
+}
+
+
+@media (max-width: 600px) {
+  .container {
+    max-width: 99vw;
+    padding: 12px 2vw 25px 2vw;
+    border-radius: 14px;
+  }
+  .timer {
+    font-size: 1.08rem;
+    padding: 8px 3vw;
+  }
+}
